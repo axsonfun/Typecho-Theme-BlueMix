@@ -42,11 +42,10 @@
                             </div>
                         </div><?php $this->options->guanggao(); ?>
                     </div>
-                </div>
+                </div><?php include('comments.php'); ?>
             </div>
         </section>
     </div>
 </main>
-<?php include('comments.php'); ?>
 <?php include('poster.php'); ?>
 <?php include('footer.php'); ?>
